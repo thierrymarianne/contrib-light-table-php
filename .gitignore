@@ -1,0 +1,5 @@
+composer.phar
+vendor
+logs
+pom.properties
+target

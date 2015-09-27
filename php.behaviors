@@ -1,0 +1,16 @@
+[
+ [:app :lt.objs.plugins/load-js "codemirror/php.js"]
+ [:app :lt.objs.plugins/load-js "php_compiled.js"]
+
+ [:editor.php :lt.plugins.php/on-eval]
+ [:editor.php :lt.plugins.php/on-eval.one]
+ [:editor.php :lt.plugins.php/php-exception]
+ [:editor.php :lt.plugins.php/php-success]
+ [:editor.php :lt.plugins.php/php-result]
+ [:editor.php :lt.plugins.php/php-watch]
+
+ [:files :lt.objs.files/file-types [{:exts [:php], :mime "text/x-php", :tags [:editor.php], :name "PHP"}]]
+
+ [:php.lang :lt.plugins.php/connect]
+ [:php.lang :lt.plugins.php/eval!]
+]
