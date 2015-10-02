@@ -31,7 +31,7 @@ goog.require('lt.objs.clients');
 goog.require('lt.objs.sidebar.clients');
 goog.require('lt.objs.command');
 goog.require('lt.objs.editor');
-lt.plugins.php.debug_mode = true;
+lt.plugins.php.debug_mode = false;
 lt.plugins.php.log = (function log(message){if(cljs.core.truth_(lt.plugins.php.debug_mode))
 {return console.log(clojure.string.join.call(null,message));
 } else

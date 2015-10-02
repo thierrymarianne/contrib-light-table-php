@@ -16,7 +16,7 @@
             [lt.util.load :as load])
   (:require-macros [lt.macros :refer [behavior]]))
 
-(def debug-mode true)
+(def debug-mode false)
 
 (defn log [message]
   (when debug-mode (.log js/console (clojure.string/join message))))
