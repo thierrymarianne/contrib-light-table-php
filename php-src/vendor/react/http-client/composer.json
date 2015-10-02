@@ -1,0 +1,25 @@
+{
+    "name": "react/http-client",
+    "description": "Asynchronous HTTP client library.",
+    "keywords": ["http"],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4.0",
+        "guzzlehttp/psr7": "^1.0",
+        "react/socket-client": "0.4.*",
+        "react/dns": "0.4.*",
+        "react/event-loop": "0.4.*",
+        "react/stream": "0.4.*",
+        "evenement/evenement": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "React\\HttpClient\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.5-dev"
+        }
+    }
+}
