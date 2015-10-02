@@ -1,5 +1,9 @@
 # PHP plugin for Light Table
 
+## Demo
+
+![PHP plugin for Light Table](https://raw.github.com/thierrymarianne/LightTable-PHP/master/php-light-table-demo.gif)
+
 ## Requirement
 
 A php binary should be available in your `$PATH`.
