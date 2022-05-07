@@ -1,3 +1,5 @@
+_**EXPERIMENTAL**_, _**DEPRECATED**_, and _**ARCHIVED**_
+
 # PHP plugin for Light Table
 
 ## Demo
